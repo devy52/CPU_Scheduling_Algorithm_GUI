@@ -1,0 +1,4 @@
+to compile : - 
+	gcc -o program_name program_name.c `pkg-config --cflags --libs gtk+-3.0`
+to run : - 
+	./program_name
